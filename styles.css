@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: hsl(240, 92%, 41%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    gap: 50px;
+    background-color: black;
+    box-shadow: 8px 8px 38rem  hsl(170, 77%, 45%)
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid hsl(203, 100%, 50%);
+    box-shadow: 2px 2px 25px  hsl(191, 100%, 54%);
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    font-size: 4.5rem;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.label{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: hsl(189, 100%, 50%);
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 65px;
+}
+#reset{
+    margin-top: 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 3.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: hsl(189, 100%, 50%);
+    box-shadow: 2px 2px 28px  hsl(191, 100%, 54%);
+    transition: 0.25s ease-in-out;
+}
+
+
+#return{
+    margin-top: 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 3.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: hsl(189, 100%, 50%);
+    box-shadow: 2px 2px 28px  hsl(191, 100%, 54%);
+    transition: 0.25s ease-in-out;
+}
+
+.item:hover{
+    background-color: hsl(60, 1%, 13%);
+}
+
+.item:active{
+    height: 105px;
+    width: 105px;
+}
+
+
+#reset:hover{
+    background-color: hsl(60, 1%, 13%);
+    color: hsl(189, 95%, 42%);
+}
+
+#reset:active{
+    font-size: 3.8rem;
+}
+
+#return:hover{
+    background-color: hsl(60, 1%, 13%);
+    color: hsl(189, 95%, 42%);
+}
+
+#return:active{
+    font-size: 3.8rem;
+}
+
+#muteBtn{
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color: black;
+    box-shadow: 2px 2px 28px  hsl(191, 100%, 54%);
+    margin-right: 2.5rem;
+}
+
+#volumeSlider{
+    border-radius: 50px;
+    accent-color: black;
+}
+
+.position{
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+}
+
+
+
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
