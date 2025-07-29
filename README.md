@@ -5,7 +5,7 @@ A simple Tic Tac Toe game built with HTML, CSS, and JavaScript.
 ## How to use
 
 1. Download or clone this repository.
-2. Open `index.html` in your web browser.
+2. Open `main.html` in your web browser.
 3. Play the game!
 
 ## Features
